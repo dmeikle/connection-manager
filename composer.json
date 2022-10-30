@@ -1,0 +1,21 @@
+{
+  "name": "quantumunit/connection-manager",
+  "description": "description",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "david",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "symfony/monolog-bundle": "^3.8",
+    "symfony/yaml": "^5.4",
+    "quantumunit/utils": "dev-main",
+    "tcdent/php-restclient": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
