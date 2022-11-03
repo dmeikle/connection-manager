@@ -11,8 +11,9 @@
   ],
   "require": {
     "symfony/monolog-bundle": "^3.8",
+    "symfony/monolog-bridge": "^6.0",
     "symfony/yaml": "^6.1",
-    "quantumunit/utils": "dev-main",
+    "quantumunit/utils": "^1.4",
     "tcdent/php-restclient": "dev-master",
     "friendsofphp/php-cs-fixer": "dev-master"
   },
