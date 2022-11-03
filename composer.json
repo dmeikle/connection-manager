@@ -14,8 +14,7 @@
     "symfony/monolog-bridge": "^6.0",
     "symfony/yaml": "^6.1",
     "quantumunit/utils": "^1.4",
-    "tcdent/php-restclient": "dev-master",
-    "friendsofphp/php-cs-fixer": "dev-master"
+    "tcdent/php-restclient": "^0.1.8"
   },
   "require-dev": {
     "phpunit/phpunit": "^9.5"
