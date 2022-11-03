@@ -11,6 +11,8 @@
 namespace QuantumUnit\Connections\Clients;
 
 
+use Illuminate\Support\Facades\DB;
+
 /**
  * LocalhostConnection
  *
@@ -19,9 +21,12 @@ namespace QuantumUnit\Connections\Clients;
  */
 class LocalhostConnection extends ClientConnection
 {
-//    public function __construct(array $credentials)
-//    {
-//        parent::__construct($credentials,'local');
-//    }
+
+    public function execute(string $method, object $model, string $url, array $params): string
+    {
+        $sql = $method::$url;
+        $result = DB::selectRaw($sql, $params)->get()->toJson();
+
+    }
 
 }
