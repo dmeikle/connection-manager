@@ -14,9 +14,7 @@
     "symfony/yaml": "^6.1",
     "quantumunit/utils": "dev-main",
     "tcdent/php-restclient": "dev-master",
-    "friendsofphp/php-cs-fixer": "dev-master",
-    "illuminate/database": "8.x-dev",
-    "illuminate/events": "8.x-dev"
+    "friendsofphp/php-cs-fixer": "dev-master"
   },
   "require-dev": {
     "phpunit/phpunit": "^9.5"
